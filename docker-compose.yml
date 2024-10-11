@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+ heatmap-app:
+  build: ../../Desktop/pythonProjectKG2 #Вместо Desktop/pythonProjectKG2 укажите путь к файлу на своём компютере
+  ports:
+   - "8000:8001"
+  volumes:
+   - ./main
